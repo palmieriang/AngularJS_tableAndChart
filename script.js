@@ -16,7 +16,7 @@ graphApp.controller('GraphCtrl', function ($scope) {
 
 						$scope.columnValues = data;
 
-						$scope.$digest()					
+						$scope.$digest()
 					}
 				reader.readAsText(files[i])
 				}
